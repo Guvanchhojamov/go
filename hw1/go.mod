@@ -1,6 +1,6 @@
-module hw1
+module github.com/Guvanchhojamov/go/hw1
 
-go 1.21.3
+go 1.18
 
 require github.com/beevik/ntp v1.3.0
 
