@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	// First application
+
 	l := log.New(os.Stderr, "hw1- ", log.Flags())
 	if time, err := ntp.Time("0.beevik-ntp.pool.ntp.org"); err != nil {
 		l.Fatalln(err)
